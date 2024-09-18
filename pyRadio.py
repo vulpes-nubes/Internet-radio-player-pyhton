@@ -25,7 +25,7 @@ class RadioPlayer(QWidget):
         # Input field for stream URL
         self.url_input = QComboBox(self)
         self.url_input.setEditable(True)
-        self.url_input.setPlaceholderText('Enter stream URL (e.g., http://stream-url)')
+        self.url_input.setPlaceholderText('Enter stream URL (e.g., http://stream.laut.fm/lofi)')
 
         # Play button
         self.play_button = QPushButton('Play', self)
